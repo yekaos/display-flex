@@ -9,9 +9,6 @@
     overflow: hidden;
     border-radius: 25px;
   }
-  :hover.logo{
-.rotate-center{animation:rotate-center 1s} @keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
-  }
   header{
     text-align: center;
     background-color: #293949;
@@ -55,7 +52,7 @@
   filter: grayscale();
   }
   :hover.foto{
-    transform: scale(1.1) rotate(180deg);
+    transform: scale(1.1);
     transition: transform 1s;
     filter: grayscale(0);
   }
@@ -73,3 +70,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #cc9952;
   }
+  :hover.logo{
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 1s;
+    filter: grayscale(0);
+      }
