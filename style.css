@@ -55,7 +55,7 @@
   filter: grayscale();
   }
   :hover.foto{
-    transform: scale(1.1);
+    transform: scale(1.1) rotate(180deg);
     transition: transform 1s;
     filter: grayscale(0);
   }
