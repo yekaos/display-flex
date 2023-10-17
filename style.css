@@ -11,7 +11,7 @@
   }
   header{
     text-align: center;
-    background-color: #1a3648;
+    background-color: #293949;
     padding: 5px;
     border-radius: 10px;
   }
@@ -33,7 +33,7 @@
     justify-content: center;
   }
   .miembro{
-    background-color: #1a3648;
+    background-color: #293949;
     color: #c9c6c2;
     width: 250px;
     height: 350px;
@@ -44,7 +44,7 @@
     box-shadow: #cc9952 12px 8px;
   }
   .foto{
-  border-radius: 35%;
+  border-radius: 30%;
   overflow: hidden;
   padding: 0.2em;
   }
