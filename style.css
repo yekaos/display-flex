@@ -57,3 +57,8 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .cargo{
+    font-size: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cc9952;
+  }
