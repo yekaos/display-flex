@@ -9,6 +9,9 @@
     overflow: hidden;
     border-radius: 25px;
   }
+  :hover.logo{
+.rotate-center{animation:rotate-center 1s} @keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+  }
   header{
     text-align: center;
     background-color: #293949;
@@ -17,11 +20,13 @@
   }
   h1{
     color: #cc9952;
+    text-shadow: grey 4px 2px;
   }
   body{
     font-family: fantasy;
     font-size: 120%;
-    background-color: rgb(93, 110, 131);
+    background: rgb(93,110,131);
+    background: linear-gradient(69deg, rgba(93,110,131,1) 35%, rgba(204,153,82,1) 100%);
   }
   .container{
     padding: 1em;
@@ -47,6 +52,12 @@
   border-radius: 30%;
   overflow: hidden;
   padding: 0.2em;
+  filter: grayscale();
+  }
+  :hover.foto{
+    transform: scale(1.1);
+    transition: transform 1s;
+    filter: grayscale(0);
   }
   .miembro img{
     width: 200px;
